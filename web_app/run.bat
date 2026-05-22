@@ -47,7 +47,7 @@ echo.
 REM ---- STEP 4: Install dependencies ----
 echo [4/5] Installing dependencies...
 python -m pip install --upgrade pip --quiet
-python -m pip install -r backend\requirements.txt
+python -m pip install -r requirements.txt
 if %errorlevel% neq 0 (
     echo ERROR: Dependency installation failed.
     pause
