@@ -7,3 +7,4 @@ web_app/venv/
 web_app/backend/uploads/
 __pycache__/
 *.pyc
+web_app/venv/ 
